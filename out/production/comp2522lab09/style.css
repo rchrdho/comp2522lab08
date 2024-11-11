@@ -1,0 +1,31 @@
+.label {
+    -fx-font-size: 16px;        /* Sets the font size to 16 pixels for text in labels */
+    -fx-text-fill: #444;        /* Sets the text color to a dark gray (hex color #444) */
+    -fx-padding: 10;            /* Adds 10 pixels of padding around the text in labels */
+}
+
+.text-field {
+    -fx-font-size: 14px;          /* Sets the font size for text in text fields */
+    -fx-prompt-text-fill: gray;   /* Changes the color of placeholder (prompt) text to gray */
+    -fx-border-color: #2196F3;    /* Sets the border color of the text field to a blue shade (#2196F3) */
+    -fx-border-radius: 5;         /* Rounds the corners of the border with a radius of 5 pixels */
+    -fx-padding: 5;               /* Adds 5 pixels of padding inside the text field */
+}
+
+.button {
+    -fx-font-size: 14px;           /* Sets the font size for button text */
+    -fx-background-color: #6489b9; /* Gives buttons a blue background color (#6489b9) */
+    -fx-text-fill: white;          /* Changes button text color to white for contrast */
+    -fx-border-radius: 5;          /* Rounds the corners of the button */
+    -fx-padding: 5 10;             /* Adds 5px padding on top/bottom and 10px on left/right */
+}
+
+.root {
+    -fx-spacing: 10;                   /* Adds 10 pixels of space between child elements inside the VBox */
+    -fx-alignment: center;             /* Centers the child elements horizontally in the VBox */
+    -fx-padding: 20;                   /* Adds padding inside the VBox, creating space between the VBox border and its content */
+    -fx-background-color: #f5f5f5;     /* Sets the background color of the VBox to a light gray */
+    -fx-border-color: #ddd;            /* Adds a light gray border around the VBox */
+    -fx-border-width: 1;               /* Sets the thickness of the VBox border to 1 pixel */
+    -fx-border-radius: 5;              /* Rounds the corners of the VBox border */
+}

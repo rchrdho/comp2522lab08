@@ -10,11 +10,13 @@
       <root url="jar://$PROJECT_DIR$/../lab9/javafx-sd/javafx-sdk-21.0.5/lib/javafx.swing.jar!/" />
       <root url="jar://$PROJECT_DIR$/../lab9/javafx-sd/javafx-sdk-21.0.5/lib/javafx.web.jar!/" />
       <root url="file://$PROJECT_DIR$/../lab9/javafx-sd/javafx-sdk-21.0.5/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../../../javafx-sdk/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/src/code" />
     </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../../javafx-sdk/lib" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/../lab9/javafx-sd/javafx-sdk-21.0.5/lib" recursive="false" />
   </library>
 </component>
