@@ -20,9 +20,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ *
+ * @author Gems
+ * @author Richard
+ * @author Phyo Thu Kha
+ */
 public class QuizApp extends Application
 {
-
     private List<Question> questions = new ArrayList<>();
     private int currentQuestionIndex;
     private int score = 0;
@@ -168,6 +173,8 @@ public class QuizApp extends Application
         questionLabel.setText("Quiz Over! Thank you for playing");
         scoreLabel.setText("Final Score: " + score);
         startButton.setDisable(false); // Enable the start button to restart the quiz
+        endButton.setDisable(true);
+        submitButton.setDisable(true);
     }
 
     public static void main(final String[] args)
