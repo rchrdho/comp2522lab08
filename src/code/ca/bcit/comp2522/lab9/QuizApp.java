@@ -35,12 +35,12 @@ public class QuizApp extends Application
     private final int QUESTION_LIMIT = 10;
     private final int RESET_NUMBER   = 0;
 
-    private Label questionLabel   = new Label();
-    private TextField answerField = new TextField();
-    private Label scoreLabel      = new Label();
-    private Button submitButton   = new Button("Submit");
-    private Button startButton    = new Button("Start Quiz");
-    private Button endButton      = new Button("End Quiz");
+    private final Label     questionLabel  = new Label();
+    private final TextField answerField    = new TextField();
+    private final Label     scoreLabel     = new Label();
+    private final Button    submitButton   = new Button("Submit");
+    private final Button    startButton    = new Button("Start Quiz");
+    private final Button    endButton      = new Button("End Quiz");
 
     @Override
     public void start(final Stage stage)
